@@ -56,6 +56,8 @@ let paragraph = document.querySelectorAll(".text-content p");
 let contactHeader = document.querySelector(".contact h4");
 let contactP = document.querySelectorAll(".contact p");
 
+let footer = document.querySelector("footer p");
+
 //nav
 anchor[0].textContent = "Services";
 anchor[1].textContent = "Product";
@@ -94,3 +96,6 @@ contactHeader.textContent = "Contact";
 contactP[0].innerHTML = "123 Way 456 Street<br>Somewhere, USA";
 contactP[1].textContent = "1 (888) 888-8888";
 contactP[2].textContent = "sales@greatidea.io";
+
+
+footer.textContent = "Copyright Great Idea! 2018";
