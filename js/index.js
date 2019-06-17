@@ -70,17 +70,22 @@ anchor[5].textContent = "Contact";
 anchor.forEach(anchor => (anchor.style.decoration = "none"));
 anchor.forEach(anchor => (anchor.style.color = "hotpink"));
 
+//header
 headerText.innerHTML = "DOM<br> Is<br> Awesome";
 button.textContent = "Get Started";
 headerImage.src = "./img/header-img.png";
 middleImage.src = "./img/mid-page-accent.jpg";
 
+
+//main section
 header4[0].textContent = "Features";
 header4[1].textContent = "About";
 header4[2].textContent = "Services";
 header4[3].textContent = "Product";
 header4[4].textContent = "Vision";
 
+
+//main sec para
  paragraph[0].textContent =
   "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 paragraph[1].textContent =
@@ -92,10 +97,12 @@ paragraph[3].textContent =
 paragraph[4].textContent =
   "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
+//contact
 contactHeader.textContent = "Contact";
 contactP[0].innerHTML = "123 Way 456 Street<br>Somewhere, USA";
 contactP[1].textContent = "1 (888) 888-8888";
 contactP[2].textContent = "sales@greatidea.io";
 
 
+//footer
 footer.textContent = "Copyright Great Idea! 2018";
