@@ -51,13 +51,18 @@ let headerText = document.querySelector(".cta-text h1");
 let button = document.querySelector("button");
 let headerImage = document.querySelector("#cta-img");
 let middleImage = document.querySelector(".middle-img");
+let header4 = document.querySelectorAll(".text-content h4");
+let paragraph = document.querySelectorAll(".text-content p");
+
 
 //nav
 anchor[0].textContent = "Services";
-anchor[1].textContent = "Vision";
-anchor[2].textContent = "Features";
-anchor[3].textContent = "About";
-anchor[4].textContent = "Contact";
+anchor[1].textContent = "Product";
+anchor[2].textContent = "Vision";
+anchor[3].textContent = "Features";
+anchor[4].textContent = "About";
+anchor[5].textContent = "Contact";
+
 
 anchor.forEach(anchor => (anchor.style.decoration = "none"));
 anchor.forEach(anchor => (anchor.style.color = "orange"));
@@ -66,3 +71,20 @@ headerText.innerHTML = "DOM<br> Is<br> Awesome";
 button.textContent = "Get Started";
 headerImage.src = "./img/header-img.png";
 middleImage.src = "./img/mid-page-accent.jpg";
+
+header4[0].textContent = "Features";
+header4[1].textContent = "About";
+header4[2].textContent = "Services";
+header4[3].textContent = "Product";
+header4[4].textContent = "Vision";
+
+ paragraph[0].textContent =
+  "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[1].textContent =
+  "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[2].textContent =
+  "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[3].textContent =
+  "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[4].textContent =
+  "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
