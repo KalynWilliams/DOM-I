@@ -53,7 +53,8 @@ let headerImage = document.querySelector("#cta-img");
 let middleImage = document.querySelector(".middle-img");
 let header4 = document.querySelectorAll(".text-content h4");
 let paragraph = document.querySelectorAll(".text-content p");
-
+let contactHeader = document.querySelector(".contact h4");
+let contactP = document.querySelectorAll(".contact p");
 
 //nav
 anchor[0].textContent = "Services";
@@ -65,7 +66,7 @@ anchor[5].textContent = "Contact";
 
 
 anchor.forEach(anchor => (anchor.style.decoration = "none"));
-anchor.forEach(anchor => (anchor.style.color = "orange"));
+anchor.forEach(anchor => (anchor.style.color = "hotpink"));
 
 headerText.innerHTML = "DOM<br> Is<br> Awesome";
 button.textContent = "Get Started";
@@ -88,3 +89,8 @@ paragraph[3].textContent =
   "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 paragraph[4].textContent =
   "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+contactHeader.textContent = "Contact";
+contactP[0].innerHTML = "123 Way 456 Street<br>Somewhere, USA";
+contactP[1].textContent = "1 (888) 888-8888";
+contactP[2].textContent = "sales@greatidea.io";
