@@ -50,6 +50,7 @@ let ctaText = document.querySelector("cta-text");
 let headerText = document.querySelector(".cta-text h1");
 let button = document.querySelector("button");
 let headerImage = document.querySelector("#cta-img");
+let middleImage = document.querySelector(".middle-img");
 
 //nav
 anchor[0].textContent = "Services";
@@ -64,3 +65,4 @@ anchor.forEach(anchor => (anchor.style.color = "orange"));
 headerText.innerHTML = "DOM<br> Is<br> Awesome";
 button.textContent = "Get Started";
 headerImage.src = "./img/header-img.png";
+middleImage.src = "./img/mid-page-accent.jpg";
