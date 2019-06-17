@@ -39,4 +39,70 @@ const siteContent = {
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+logo.setAttribute('src', siteContent["nav"]["img-src"]);
+
+let container = document.querySelector(".container");
+let header = document.querySelector("header");
+let navigation = document.querySelector("nav");
+let anchor = document.querySelectorAll("a");
+let cta = document.querySelector("cta");
+let ctaText = document.querySelector("cta-text");
+let headerText = document.querySelector(".cta-text h1");
+let button = document.querySelector("button");
+let headerImage = document.querySelector("#cta-img");
+let middleImage = document.querySelector(".middle-img");
+let header4 = document.querySelectorAll(".text-content h4");
+let paragraph = document.querySelectorAll(".text-content p");
+let contactHeader = document.querySelector(".contact h4");
+let contactP = document.querySelectorAll(".contact p");
+
+let footer = document.querySelector("footer p");
+
+//nav
+anchor[0].textContent = "Services";
+anchor[1].textContent = "Product";
+anchor[2].textContent = "Vision";
+anchor[3].textContent = "Features";
+anchor[4].textContent = "About";
+anchor[5].textContent = "Contact";
+
+
+anchor.forEach(anchor => (anchor.style.decoration = "none"));
+anchor.forEach(anchor => (anchor.style.color = "hotpink"));
+
+//header
+headerText.innerHTML = "DOM<br> Is<br> Awesome";
+button.textContent = "Get Started";
+headerImage.src = "./img/header-img.png";
+middleImage.src = "./img/mid-page-accent.jpg";
+
+
+//main section
+header4[0].textContent = "Features";
+header4[1].textContent = "About";
+header4[2].textContent = "Services";
+header4[3].textContent = "Product";
+header4[4].textContent = "Vision";
+
+
+//main sec para
+ paragraph[0].textContent =
+  "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[1].textContent =
+  "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[2].textContent =
+  "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[3].textContent =
+  "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraph[4].textContent =
+  "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//contact
+contactHeader.textContent = "Contact";
+contactP[0].innerHTML = "123 Way 456 Street<br>Somewhere, USA";
+contactP[1].textContent = "1 (888) 888-8888";
+contactP[2].textContent = "sales@greatidea.io";
+
+
+//footer
+footer.textContent = "Copyright Great Idea! 2018";
